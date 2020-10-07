@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- * Add for SEO -->
+    <meta name="description" content="Spongebob meme generator" />
+    <!-- * Add for SEO and web crawlers, appear on google faster-->
+    <meta name="robots" content="index, follow" />
+    <!-- * Changes icon in title tab -->
+    <link rel="icon" href="./assets/spongebob_116159.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css" >
+    <title>Spongebob Meme Generator</title>
+  </head>
+  <body>
+    <section class="hero is-dark is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            SpongeBob Meme Generator!
+          </h1>
+          <h2 class="subtitle">
+            Easily create your own SpongeBob meme 😂
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container meme-container">
+        <img src="./assets/spongbob_bg.jpg" alt="spongebob meme background">
+        <p class="meme-text is-size-1 has-shadow"></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="control">
+        <div class="control">
+          <p>Enter your text:</p>
+          <textarea class="textarea has-fixed-size is-focused is-size-6 meme-input" placeholder="Enter text to meme"></textarea>
+        </div>
+      </div>
+    </section>
+    <footer class="footer mt-5 has-background-grey-light">
+      <div class="content has-text-centered">
+        <p>
+          <strong>SpongeBob Meme Generator</strong> by <a class="has-text-link-dark" href="https://twitter.com/devindford">Devin Ford</a>
+        </p>
+      </div>
+    </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
