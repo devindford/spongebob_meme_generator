@@ -13,6 +13,7 @@ body {
   position: relative;
   text-align: center;
   color: #ffffff;
+  width: 1200px;
   overflow: hidden;
 }
 
@@ -38,6 +39,8 @@ footer p {
   color: #222222;
 }
 
-/* .choices {
-  font-size: 1.5rem;
-} */
+@media screen and (max-width: 1200px) {
+  .meme-container {
+    width: initial;
+  }
+}
