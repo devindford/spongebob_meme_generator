@@ -33,6 +33,7 @@ body {
 p.meme-text {
   font-weight: var(--font-weight);
   font-style: var(--font-styling);
+  text-shadow: 3px 3px 3px #000000;
 }
 
 footer p {
