@@ -8,6 +8,7 @@ body {
   position: relative;
   text-align: center;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .meme-input {
@@ -19,9 +20,6 @@ body {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-overflow: ellipsis;
   text-shadow: 2px 2px 2px #000000;
   transition: all .3s;
 }
-
-
