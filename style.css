@@ -1,4 +1,8 @@
-
+body {
+  background-color: #222222;
+  color: #ffffff;
+  min-height: 100vh;
+}
 
 .meme-container {
   position: relative;
@@ -6,15 +10,18 @@
   color: #ffffff;
 }
 
+.meme-input {
+  width: 700px;
+}
+
 .meme-text {
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  overflow: hidden;
+  text-overflow: ellipsis;
   text-shadow: 2px 2px 2px #000000;
   transition: all .3s;
 }
-
 
 

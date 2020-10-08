@@ -12,7 +12,6 @@ function memeThisText(text) {
     textOnImage.classList.remove('is-size-1');
     textOnImage.classList.add('is-size-3');
   } else {
-
     textOnImage.classList.remove('is-size-3');
     textOnImage.classList.add('is-size-1');
   }
