@@ -10,45 +10,71 @@
     <meta name="robots" content="index, follow" />
     <!-- * Changes icon in title tab -->
     <link rel="icon" href="./assets/spongebob_116159.ico" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css" >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Spongebob Meme Generator</title>
   </head>
   <body>
     <section class="hero is-dark is-bold">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">
-            SpongeBob Meme Generator!
-          </h1>
-          <h2 class="subtitle">
-            Easily create your own SpongeBob meme 😂
-          </h2>
+          <h1 class="title">SpongeBob Meme Generator!</h1>
+          <h2 class="subtitle">Easily create your own SpongeBob meme 😂</h2>
         </div>
       </div>
     </section>
     <section class="section">
       <div class="container meme-container">
-        <img src="./assets/spongbob_bg.jpg" alt="spongebob meme background">
+        <img src="./assets/spongbob_bg.jpg" alt="spongebob meme background" />
         <p class="meme-text is-size-1 is-size-5-mobile has-shadow"></p>
+      </div>
+      <div class="container level-item has-text-centered choices">
+        <label class="radio pr-4 is-size-4 pt-5 is-size-6-mobile">
+          <input type="radio" name="font-style" value="standard" checked />
+          Standard
+        </label>
+        <label class="radio pr-4 is-size-4 pt-5 is-size-6-mobile">
+          <input type="radio" name="font-style" value="bold" />
+          Bold
+        </label>
+        <label class="radio pr-4 is-size-4 pt-5 is-size-6-mobile">
+          <input type="radio" name="font-style" value="light" />
+          Light
+        </label>
+        <label class="radio is-size-4 pt-5 is-size-6-mobile">
+          <input type="radio" name="font-style" value="italic" />
+          Italic
+        </label>
       </div>
     </section>
     <section class="section">
       <div class="control">
         <div class="control">
           <p>Enter your text:</p>
-          <textarea class="textarea is-focused is-size-6 meme-input" placeholder="Enter text to meme"></textarea>
+          <textarea
+            class="textarea is-focused is-size-6 meme-input"
+            placeholder="Enter text to meme"
+          ></textarea>
         </div>
       </div>
     </section>
     <footer class="footer has-background-grey-light">
       <div class="content has-text-centered">
         <p>
-          <strong>SpongeBob Meme Generator</strong> by <a class="has-text-link-dark" href="https://twitter.com/devindford">Devin Ford</a>
+          <strong>SpongeBob Meme Generator</strong> by
+          <a class="has-text-link-dark" href="https://twitter.com/devindford"
+            >Devin Ford</a
+          >
         </p>
       </div>
     </footer>
-    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
     <script src="./app.js"></script>
   </body>
 </html>

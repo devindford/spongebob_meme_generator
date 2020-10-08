@@ -1,3 +1,8 @@
+:root {
+  --font-weight: normal;
+  --font-styling: normal
+}
+
 body {
   background-color: #222222;
   color: #ffffff;
@@ -23,3 +28,16 @@ body {
   text-shadow: 2px 2px 2px #000000;
   transition: all .3s;
 }
+
+p.meme-text {
+  font-weight: var(--font-weight);
+  font-style: var(--font-styling);
+}
+
+footer p {
+  color: #222222;
+}
+
+/* .choices {
+  font-size: 1.5rem;
+} */
